@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Inter:wght@100..900&family=Sankofa+Display&display=swap');
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    color: #d42373;
+    font-size: 20px;
+}
+header{
+    background-color: #d42373;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    padding: 5%;
+}
+
+.span_titulo{
+    font-weight: 800;
+    border: 4px double;
+    border-color:  #d42373 yellowgreen #d42373 yellowgreen;
+    padding: 15px;
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    font-style: normal; 
+}
+.span_subtitulos{
+    font-weight: 700;
+    font-size: 60px;
+    border: 4px double;
+    border-color:  yellowgreen #d42373 yellowgreen #d42373;
+    padding: 10px;
+    font-family: "Sankofa Display", sans-serif;
+    font-style: normal;
+}
+
+.span_texto{
+    font-weight: 600;
+    font-size: 24px;
+    padding: 1px;
+}
+
+img{
+    align-items: center;
+}
+.cabecera_links{
+    display: flex;
+    gap: 32px;
+}
+.links{
+    text-decoration: none;
+    color: greenyellow;
+}
+.contenido5{
+    display: flex;
+    align-items: center;
+    margin: 5% 10%;
+    justify-content: space-between;
+}
+.Contenido_titulo{
+    padding: 5% 5% 0% 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.MainAplicaciones{
+    padding: 5%;
+}
+.Imagenes_Parafo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
+.item_album{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5%;
+}
+.link_musica{
+    text-decoration: none;
+    color: #d42373; 
+    font-weight: 600;
+}
+.imagen_link{
+    background-color: #d42373;
+}
+.contenido_enlaces_general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 10% 1% 10%;
+}
+.contenido_enlaces_links
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #d42373;
+   
+}
+.link_paginas{
+
+    margin: 10px;
+    color:black;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    border: 0.125rem solid yellowgreen;
+    display: flex;
+    justify-content: center;
+    gap: 0.625rem;
+
+}
+footer{
+    background-color: #d42373;
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+}
+footer:hover{
+    background-image: url(Assets/TTLogo.jpg);
+    justify-content: start;
+}
