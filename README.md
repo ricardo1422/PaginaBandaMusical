@@ -6,7 +6,7 @@
 ## Explicación de la página
 
 ## Tecnologías que se usarón 
-+ Html
++ Html\
 ![](Assets/HTML5_logo_and_wordmark.svg.png)
-+ Css
++ Css\
 ![](Assets/CssLogo.png)
