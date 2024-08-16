@@ -6,16 +6,16 @@
     <title>Togeashi Togeari</title>
     <link rel="stylesheet" href="style_banda.css">
     <link rel="icon" href="Assets/TTLogo.jpg">
-</head>
 
 
 <body>
-
+   
     <header>
         <div class="cabecera_links">
-            <a href="" class="Biografia">Ejercicio1</a>
-            <a href=""class="Álbumes" >Ejercicio2</a>
-            <a href="" class="Enlaces Relacionados">Ejercicio3</a>
+            <a href="" class="links">Biografia</a>
+            <a href=""class="links" >Álbumes</a>
+            <a href=""class="links" >Enlaces Realacionados</a>
+
         </div>
 
         <img src="Assets/TTLogo.jpg" alt="Logo pequeño de Togenashi Togeari">
@@ -26,13 +26,25 @@
     <main class="Contenido">
 
         <div class="Contenido_titulo">
-            <img src="Assets/TOGENASHI_TOGEARI.jpg" alt="Foto del grupo Togenashi Togeari">
+            <div id="carrusel">
+                    <button onclick="atras()">
+                        <img src="Assets/atras.webp" alt="Botón para ir a la Imagen anterior" loading="lazy">
+                    </button>
+                    <div id="img">
+                        <img id="img" src="Assets/TOGENASHI_TOGEARI.jpg" alt="Imagen de la banda Togenashi Togeari">
+                    </div>
+                    <button onclick="adelante()">
+                        <img src="Assets/adelante.webp" alt="Botón para ir a la imagen posterior" loading="lazy">
+                    </button>
+            </div>
+
             <h1><span class="span_titulo">TOGENASHI TOGEARI</span></h1>
         </div>
 
         <div class="Contenido_texto"></div>
 
             <h2><span class="span_subtitulos">Biografía</span></h2>
+            <br>
 
             <p>
                 <span class="span_texto">Togenashi Togeari</span> Es un grupo relativamente nuevo de JRock/Anison surgido a
@@ -55,7 +67,9 @@
                 <img src="Assets/TTLogoGrande.jpg" alt="Logo de Togenashi Togeari">
             </div>
             <br>
+            <br>
             <h2><span class="span_subtitulos">Álbumes</span></h2>
+            <br>
 
             <ol>
                 <li><p><span class="span_texto">TOGEARI</span>: Públicado el 24 de abril del 2024</p>
@@ -128,10 +142,11 @@
        <br>
 
        <h2><span class="span_subtitulos">Enlaces Relacionados</span></h2>
+       <br>
        <div class="contenido_enlaces_general">
         <img src="Assets/TTPorCall.jpg" alt="Imagen de Togeashi Togeari en su version anime">
             <div class="contenido_enlaces_links">
-                <a href="https://www.youtube.com/@girlsbandcry" class="link_paginas" target="_blank"><img src="Assets/Icono_Youtube.png" alt="Icono de YouTube" width="100" height="100"></a>
+                <a href="https://www.youtube.com/@girlsbandcry" class="link_paginas" target="_blank"><img src="Assets/Icono_Youtube.png" alt="Icono de YouTube" width="100px" height="100px"></a>
 
                 <a href="https://www.universal-music.co.jp/togenashitogeari/biography/" class="link_paginas" target="_blank"><img src="Assets/IconoUniversalN.png" alt="Icono de Universal Music"></a>
 
@@ -147,6 +162,7 @@
         <img src="Assets/TTLogo.jpg" alt="Logo pequeño de Togenashi Togeari">
     </footer>
 
+    <script src="main.js"></script>
 </body>
 
 </html>
