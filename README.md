@@ -17,3 +17,5 @@ Sitio web de una banda musical incluye:
 ![](Assets/HTML5_logo_and_wordmark.svg.png)
 + **Css**\
 ![](Assets/CssLogo.png)
++ **Java Script**\
+![](Assets/logoJS.png)
